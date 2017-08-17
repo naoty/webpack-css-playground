@@ -6,7 +6,11 @@
     "email": "naoty.k@gmail.com"
   },
   "license": "MIT",
+  "scripts": {
+    "build": "webpack"
+  },
   "devDependencies": {
+    "css-loader": "^0.28.5",
     "webpack": "^3.5.5"
   }
 }
