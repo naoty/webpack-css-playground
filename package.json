@@ -5,5 +5,8 @@
     "name": "Naoto Kaneko",
     "email": "naoty.k@gmail.com"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^3.5.5"
+  }
 }
