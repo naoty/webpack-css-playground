@@ -1,0 +1,9 @@
+{
+  "name": "webpack-css-playground",
+  "version": "0.1.0",
+  "author": {
+    "name": "Naoto Kaneko",
+    "email": "naoty.k@gmail.com"
+  },
+  "license": "MIT"
+}
