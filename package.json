@@ -6,6 +6,7 @@
     "email": "naoty.k@gmail.com"
   },
   "license": "MIT",
+  "repository": "https://github.com/naoty/webpack-css-playground",
   "scripts": {
     "build": "webpack"
   },
