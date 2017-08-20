@@ -8,14 +8,24 @@ module.exports = {
     path: path.resolve(__dirname, "dist", "javascripts")
   },
   resolve: {
-    extensions: ["css", "sass"]
+    extensions: ["css", "sass", "scss"]
   },
   module: {
     rules: [
       {
-        test: /\.sass$/i,
+        test: /\.(sass|scss)$/i,
         use: ExtractTextPlugin.extract({
-          use: ["css-loader", "sass-loader"]
+          use: [
+            {
+              loader: "css-loader",
+              options: {
+                alias: {
+                  "../fonts": "font-awesome/fonts"
+                }
+              }
+            },
+            "sass-loader"
+          ]
         })
       }
     ]
