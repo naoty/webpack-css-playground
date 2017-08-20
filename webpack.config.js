@@ -27,6 +27,17 @@ module.exports = {
             "sass-loader"
           ]
         })
+      },
+      {
+        test: /\.(eot|woff|woff2|ttf|svg)$/i,
+        use: [
+          {
+            loader: "file-loader",
+            options: {
+              outputPath: "../assets/"
+            }
+          }
+        ]
       }
     ]
   },
